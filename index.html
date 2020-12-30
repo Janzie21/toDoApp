@@ -8,11 +8,30 @@
     <link rel="stylesheet" href="./build/css/style.css" />
   </head>
   <body>
-    <!-- <div style="color:purple;font-size:75px">
-      <svg class="icon icon-gear">
-        <use xlink:href="./icons/symbol-defs.svg#icon-gear"></use>
-      </svg>
-    -->
+   <div class="todoApp">
+     <form action="" class="todoApp__form">
+       <input type=text class="todoApp__form__input">
+       <input type="submit" class="todoApp__form__button">
+     </form>
+     <ul class="todoApp__list">
+       <li class="todoApp__list__item">
+         <span class="item__text">Ga naar het containerpark</span>
+         <a href="#" class="delete"></a>
+         <a href="" class="check"></a>
+       </li>
+       <li class="todoApp__list__item">
+        <span class="item__text">Maak todoApp</span>
+        <a href="#" class="delete"></a>
+        <a href="" class="check"></a>
+       </li>
+       <li class="todoApp__list__item">
+        <span class="item__text">Aanpassen spotsApp</span>
+        <a href="#" class="delete"></a>
+        <a href="" class="check"></a>
+       </li>
+     </ul>
+
+   </div>
     <script src="./build/js/bundle.js"></script>
     <script src="./icons/svgxuse.js"></script>
   </body>
